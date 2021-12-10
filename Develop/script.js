@@ -27,7 +27,7 @@ function generatePassword() {
     } console.log(result);
 
   var special = window.confirm("Would you like your password with special characters?")
-    if (number == true) {
+    if (number === true) {
       result = result + special;
     } console.log(result);
 
